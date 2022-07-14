@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'roboto': ['roboto', 'ui-sans-serif', 'system-ui']
+    }
   },
   plugins: []
   ,

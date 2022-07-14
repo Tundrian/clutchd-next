@@ -114,3 +114,18 @@
     flex-direction: column;
   }
 }
+
+/* Home Page */
+/*==================================*/
+.c-text-shadow-lg{
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+.c-text-shadow-md{
+  text-shadow: 0 2px 1px #747474, 
+      -1px 3px 1px #767676, 
+      -2px 5px 1px #787878, 
+      -3px 7px 1px #7a7a7a;
+
+}

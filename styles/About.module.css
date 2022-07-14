@@ -1,0 +1,18 @@
+/* About Page */
+/*==================================*/
+.c-bottom-box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.95) 0px 25px 20px -20px;
+  }
+  
+  /* Carousel */
+  /*==================================*/
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    position: relative;
+    flex: 0 0 100%;
+  }

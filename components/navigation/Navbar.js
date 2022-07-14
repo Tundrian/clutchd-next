@@ -25,14 +25,15 @@ const Navbar = () => {
     }
 
   return (
-    <>
-    <header className="absolute w-full h-20 bg-none  transition lg:h-20 mb-20">
+    <div className="fixed top-0 left-0 right-0">
+    <header className="absolute w-full h-20 transition lg:h-20 mb-20 bg-gradient-to-b from-gray-900/100 via-gray-900 to-gray-100/0">
         <nav className="container m-auto py-1 lg:px-20 z-10">
             <div className="relative flex flex-wrap items-center justify-between">
                 <div className="relative z-10 w-full flex items-center justify-between px-6 lg:w-auto">
-                    <button onClick={hamburgerClick} id="hamburger" className="z-15 relative w-10 h-10 lg:hidden">
-                        <div role="hidden" id="line1" className="inset-0 w-6 h-0.5 m-auto rounded-full bg-gray-500 transition duration-300"></div>
-                        <div role="hidden" id="line2" className="inset-0 w-6 h-0.5 mt-1.5 m-auto rounded-full bg-gray-500 transition duration-300"></div>
+                    <button onClick={hamburgerClick} id="hamburger" className="z-15 relative w-10 h-10 lg:hidden rounded-lg bg-gray-900">
+                        <div role="hidden" id="line1" className="inset-0 w-6 h-0.5 m-auto rounded-full bg-gray-100 transition duration-300"></div>
+                        <div role="hidden" id="line2" className="inset-0 w-6 h-0.5 mt-1.5 m-auto rounded-full bg-gray-100 transition duration-300"></div>
+                        <div role="hidden" id="line2" className="inset-0 w-6 h-0.5 mt-1.5 m-auto rounded-full bg-gray-100 transition duration-300"></div>
                     </button>
                 </div>
                 <div id="navlinks" className="hidden w-full bg-gray-800 px-6 transition duration-300 lg:block lg:px-0 lg:bg-transparent lg:w-auto z-50">
@@ -65,8 +66,8 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="mt-4 lg:mt-0">
-                            <a href="" className="block w-full py-3 px-6 rounded-xl bg-gray-900 transition hover:bg-cyan-600 focus:bg-cyan-700 hover:cursor-pointer active:bg-cyan-800">
-                                <span className="block text-center font-roboto font-light  text-white font-semibold lg:text-base">Contact</span>
+                            <a href="" className="block w-full py-3 px-6 rounded-xl bg-gray-200 transition hover:bg-cyan-600 focus:bg-cyan-700 hover:cursor-pointer active:bg-cyan-800">
+                                <span className="block text-center font-roboto font-light  text-gray-800 uppercase  font-semibold lg:text-base">Contact</span>
                             </a>
                         </li>
                     </ul>
@@ -74,7 +75,7 @@ const Navbar = () => {
             </div>
         </nav>
     </header>
-  </>
+  </div>
   )
 }
 export default Navbar

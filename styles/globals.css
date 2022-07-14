@@ -20,6 +20,12 @@ a {
   box-sizing: border-box;
 }
 
+/*==================================*/
+/* Custom styling */
+/*==================================*/
+
+/* Home Page */
+/*==================================*/
 .c-text-shadow-lg{
   text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
@@ -31,4 +37,26 @@ a {
       -2px 5px 1px #787878, 
       -3px 7px 1px #7a7a7a;
 
+}
+
+/* About Page */
+/*==================================*/
+.c-bottom-box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.95) 0px 25px 20px -20px;
+}
+
+/* Carousel */
+/*==================================*/
+.embla {
+  overflow: hidden;
+  max-height: 600px;
+}
+.embla__container {
+  display: flex; 
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 50%;
+  max-width: 100%;
+  margin-inline: 20px;
 }

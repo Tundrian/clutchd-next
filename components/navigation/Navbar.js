@@ -4,6 +4,13 @@ import Image from 'next/image'
 const Navbar = () => {
     
     const navClick = (e) => {
+        let line1 = hamburger.querySelector('#line1')
+        let line2 = hamburger.querySelector('#line2')
+        let line3 = hamburger.querySelector('#line3')
+        line1.classList.remove('rotate-45', 'absolute')
+        line2.classList.remove('-rotate-45', 'absolute')
+        line2.classList.add('mt-1.5')
+        line3.classList.remove('hidden')
         document.querySelector('#navlinks').classList.add('hidden')
     }
 

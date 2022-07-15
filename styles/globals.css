@@ -35,17 +35,14 @@ a {
 /* Home Page */
 /*==================================*/
 .c-text-shadow-lg{
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
-    0px -4px 10px rgba(255,255,255,0.3);
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
-.c-text-shadow-md{
-  text-shadow: 0 2px 1px #747474, 
-      -1px 3px 1px #767676, 
-      -2px 5px 1px #787878, 
-      -3px 7px 1px #7a7a7a;
-
+.c-text-shadow-sm{
+  text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15);
 }
+
 
 /* About Page */
 /*==================================*/
@@ -53,19 +50,3 @@ a {
   box-shadow: rgba(0, 0, 0, 0.95) 0px 25px 20px -20px;
 }
 
-/* Carousel */
-/*==================================*/
-/* .embla {
-  overflow: hidden;
-  max-height: 600px;
-  
-} */
-/* .embla__container {
-  display: flex; 
-} */
-/* .embla__slide_about {
-  position: relative;
-  flex: 0 0 50%;
-  max-width: 100%;
-  margin-inline: 20px;
-} */

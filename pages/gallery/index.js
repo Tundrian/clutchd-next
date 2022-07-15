@@ -1,7 +1,9 @@
+
 const index = () => {
   return (
-    <div className="c-bottom-box-shadow bg-gradient-to-t from-gray-800/75 to-gray-800/25 -z-10 py-11">
-        <h1>Gallery</h1>
+    <div className="py-11">
+        <h1 className="mt-20 text-center text-6xl font-roboto ">Gallery</h1>
+
     </div>
   )
 }

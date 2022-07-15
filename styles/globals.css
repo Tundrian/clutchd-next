@@ -55,16 +55,17 @@ a {
 
 /* Carousel */
 /*==================================*/
-.embla {
+/* .embla {
   overflow: hidden;
   max-height: 600px;
-}
-.embla__container {
+  
+} */
+/* .embla__container {
   display: flex; 
-}
-.embla__slide {
+} */
+/* .embla__slide_about {
   position: relative;
   flex: 0 0 50%;
   max-width: 100%;
   margin-inline: 20px;
-}
+} */

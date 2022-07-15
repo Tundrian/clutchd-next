@@ -3,27 +3,29 @@ import Image from 'next/image'
 
 const Navbar = () => {
     
+    const navClick = (e) => {
+        document.querySelector('#navlinks').classList.add('hidden')
+    }
+
     const hamburgerClick = (e) => {
-        console.log(e.target)
-            let hamburger = document.querySelector('#hamburger')
-    let navlinks = document.querySelector('#navlinks')
-    
-    let line1 = hamburger.querySelector('#line1')
-    let line2 = hamburger.querySelector('#line2')
-    let line3 = hamburger.querySelector('#line3')
-      if (navlinks.classList.contains('hidden')){
-            navlinks.classList.remove('hidden')
-            line1.classList.add('rotate-45', 'absolute')
-            line2.classList.add('-rotate-45', 'absolute')
-            line2.classList.remove('mt-1.5')
-            line3.classList.add('hidden')
-        } else{
-            navlinks.classList.add('hidden')
-            line1.classList.remove('rotate-45', 'absolute')
-            line2.classList.remove('-rotate-45', 'absolute')
-            line2.classList.add('mt-1.5')
-            line3.classList.remove('hidden')
-        }
+        let hamburger = document.querySelector('#hamburger')
+        let navlinks = document.querySelector('#navlinks')
+        let line1 = hamburger.querySelector('#line1')
+        let line2 = hamburger.querySelector('#line2')
+        let line3 = hamburger.querySelector('#line3')
+        if (navlinks.classList.contains('hidden')){
+                navlinks.classList.remove('hidden')
+                line1.classList.add('rotate-45', 'absolute')
+                line2.classList.add('-rotate-45', 'absolute')
+                line2.classList.remove('mt-1.5')
+                line3.classList.add('hidden')
+            } else{
+                navlinks.classList.add('hidden')
+                line1.classList.remove('rotate-45', 'absolute')
+                line2.classList.remove('-rotate-45', 'absolute')
+                line2.classList.add('mt-1.5')
+                line3.classList.remove('hidden')
+            }
     }
 
   return (
@@ -38,7 +40,7 @@ const Navbar = () => {
                         <div role="hidden" id="line3" className="inset-0 w-6 h-0.5 mt-1.5 m-auto rounded-full bg-gray-100 transition duration-1000"></div>
                     </button>
                 </div>
-                <div id="navlinks" className="hidden w-full bg-gray-800 px-6 transition duration-300 lg:block lg:px-0 lg:bg-transparent lg:w-auto z-50">
+                <div id="navlinks" onClick={navClick} className="hidden w-full bg-gray-800 px-6 transition duration-300 lg:block lg:px-0 lg:bg-transparent lg:w-auto z-50">
                     <ul className="py-4 text-gray-100 font-roboto font-light text-lg tracking-wide lg:flex lg:space-x-8 lg:py-0">
                         <li>
                             <Link href="/"><a 

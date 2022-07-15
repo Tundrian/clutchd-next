@@ -51,9 +51,10 @@ const Navbar = () => {
                             </a></Link>
                         </li>
                         <li>
-                            <a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
+                        <Link href="/gallery"><a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
                                 <span>Galery</span>
                             </a>
+                            </Link>
                         </li>
                         <li>
                             <a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">

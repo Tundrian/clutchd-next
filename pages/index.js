@@ -7,8 +7,8 @@ export default function Home() {
   const heroImageSrc = '/images/hero.jpg'
   return (
     <>
-    <div className="bg-gradient-to-b from-gray-800/50 to-gray-100/0 z-0">
-    <div className="h-screen w-screen relative -z-10 ">
+    <div className="bg-transparent">
+    <div className="h-screen w-screen relative -z-10 bg-transparent">
       <Image
         src={heroImageSrc}
         alt="Picture of the author"
@@ -22,8 +22,8 @@ export default function Home() {
       <div className="">
         
         {/* <Image src="/images/logo.jpg" width="70" height="70" alt="logo" className="hidden" ></Image> */}
-        <h1 className="text-7xl text-center font-roboto c-text-shadow-lg text-gray-100 md:text-gray-900 md:text-8xl">CLUTCHD</h1>
-        <p className="font-roboto font-light text-4xl text-gray-800 c-text-shadow-md text-center md:text-gray-100">Real Lifestyle. True Passion</p>
+        <h1 className="text-7xl text-center font-spaceRanger c-text-shadow-lg text-gray-100 md:text-gray-900 md:text-9xl">CLUTCHD</h1>
+        <p className="font-roboto font-light text-4xl text-gray-800 c-text-shadow-md text-center md:text-gray-800">Real Lifestyle. True Passion</p>
         <div className="call-to-action flex flex-row justify-around items-center mt-5">
           <button className="block rounded py-3 mx-5 bg-gray-900 text-lg md:text-xl font-roboto text-gray-100 uppercase tracking-wider font-light hover:bg-cyan-600 w-full">Contact</button>
           <button className="block rounded py-3 mx-5 bg-gray-900 text-lg md:text-xl font-roboto text-gray-100 uppercase tracking-wider font-light hover:bg-cyan-600 w-full">Shop</button>

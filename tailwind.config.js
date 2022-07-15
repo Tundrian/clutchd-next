@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        spaceRanger: 'SpaceRanger, sans'
+      }
+    },
     fontFamily: {
       'roboto': ['roboto', 'ui-sans-serif', 'system-ui']
     }

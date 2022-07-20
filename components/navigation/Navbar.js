@@ -68,19 +68,22 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
+                            <Link href="/shop"><a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
                                 <span>Shop</span>
                             </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
+                            <Link href="/events"><a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
                                 <span>Events</span>
                             </a>
+                            </Link>
                         </li>
                         <li className="mt-4 lg:mt-0">
-                            <a href="" className="block w-full py-3 px-6 rounded-xl bg-gray-200 transition hover:bg-cyan-600 focus:bg-cyan-700 hover:cursor-pointer active:bg-cyan-800">
+                            <Link href="/contact"><a href="" className="block w-full py-3 px-6 rounded-xl bg-gray-200 transition hover:bg-cyan-600 focus:bg-cyan-700 hover:cursor-pointer active:bg-cyan-800">
                                 <span className="block text-center font-roboto font-light  text-gray-800 uppercase  font-semibold lg:text-base">Contact</span>
                             </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

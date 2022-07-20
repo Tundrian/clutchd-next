@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-    <header className="absolute w-full h-20 transition lg:h-20 mb-20 bg-gradient-to-b from-gray-900/100 via-gray-900 to-gray-100/0">
+    <header className="absolute w-full h-20 transition lg:h-28 mb-20 bg-gradient-to-b from-gray-900/100 via-gray-900 to-gray-100/0">
         <nav className="container m-auto py-1 lg:px-20 z-10">
             <div className="relative flex flex-wrap items-center justify-between">
                 <div className="relative z-10 w-full flex items-center justify-between px-6 lg:w-auto">
@@ -63,7 +63,7 @@ const Navbar = () => {
                         </li>
                         <li>
                         <Link href="/gallery"><a href="" className="block w-full py-3 transition hover:text-cyan-600 hover:cursor-pointer px-3 mx-1 border-2 border-transparent hover:rounded hover:bg-cyan-600/50 hover:text-gray-100 uppercase">
-                                <span>Galery</span>
+                                <span>Gallery</span>
                             </a>
                             </Link>
                         </li>

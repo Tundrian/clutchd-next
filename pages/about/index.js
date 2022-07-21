@@ -22,7 +22,7 @@ const index = () => {
 
   return (  
     <>
-        <div className="relative -z-10">
+        <div className="relative -z-10 mt-10">
             <div className="c-bottom-box-shadow bg-gradient-to-t from-gray-800/75 to-gray-800/25 -z-10">
                 <div className="relative w-full h-full -z-10">
                     <div className="md:h-[75vh] w-full relative -z-10 h-[50vh]">
@@ -39,7 +39,7 @@ const index = () => {
                 </div>
             </div>
             <div className="absolute left-0 bottom-10 right-0 content-section">
-                    <h2 className="text-center text-5xl md:text-9xl pb-2xl text-gray-100 font-extrabold z-50">Clutchd Team</h2>
+                    <h2 className="text-center text-5xl lg:text-9xl pb-2xl text-gray-100 font-extrabold z-50">Clutchd Team</h2>
                </div>
         </div>
         

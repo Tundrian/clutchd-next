@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
     <div className="bg-transparent">
-    <div className="h-screen w-screen relative -z-10 bg-transparent">
+    <div className="h-screen w-full relative -z-10 bg-transparent">
       <Image
         src={heroImageSrc}
         alt="Picture of the author"
         layout="fill" // required
         objectFit="cover" // change to suit your needs
-        className="-z-20 " // just an example
+        className="-z-20 max-w-full" // just an example
       />
     </div>
     <cite className="absolute bottom-0 right-0 text-gray-100 lg:text-gray-800">Photo by <a href="https://unsplash.com/@visualsbyroyalz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anastase Maragos</a> on <a href="https://unsplash.com/s/photos/car-meet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></cite>

@@ -28,7 +28,6 @@ const index = () => {
                 <p className="py-2 rounded-lg border-slate-500 w-fit px-5 bg-slate-300 my-3 font-light ml-5"><span className="font-normal">Category: </span>All Cars</p>
                 <p className="py-2 rounded-lg border-slate-500 w-fit px-5 bg-slate-300 my-3 font-light ml-5"><span className="font-normal">Fee: </span> $0.00</p>
                 <p className="py-2 rounded-lg border-slate-500 w-fit px-5 bg-slate-300 my-3 font-light ml-5"><span className="font-normal">Car Meet Type </span>Meetup</p>
-
                 <div>
                   <h3 className="text-4xl mb-5 font-normal text-slate-700 mt-10">Vendors</h3>
                   <ul className="flex justify-around items-center flex-wrap text-xl">
@@ -99,7 +98,7 @@ const index = () => {
               </div>
             </div>
             
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11810.017975879353!2d-82.98244446534423!3d42.26775310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d1a3bc82b9b%3A0xddec5be97762f678!2sStief%20%26%20Sam%20Painting!5e0!3m2!1sen!2sca!4v1658354080445!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="w-full"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11810.017975879353!2d-82.98244446534423!3d42.26775310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d1a3bc82b9b%3A0xddec5be97762f678!2sStief%20%26%20Sam%20Painting!5e0!3m2!1sen!2sca!4v1658354080445!5m2!1sen!2sca" width="600" height="450" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="w-full"></iframe>
           </li>
         </ul>
       </div>

@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tundrian/clutchd-next">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Tundrian/clutchd-next/blob/96a885f73d5218547887d5084220c3f0efe6c47d/public/images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">CLUTCHD</h3>

@@ -66,19 +66,15 @@
 
 ![Product Screen Shot](https://github.com/Tundrian/clutchd-next/blob/9d8d8bdba946c5f99384f9527936bb73ba095b41/public/images/HomepageScreenshot.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This is the main hub for the CLUTCHD car community of Canada. They are a Canadian car modding community that host events, sell merch, and promote car culture throughout Canada. You can find all of their latest activity on this website.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Main Features:
+* Upcoming events and details
+* Gallery from past events and other enthusiests
+* Shop for CLUTCHD merchandise
+* Contact CLUTCHD about events, sponsorships, or purchases
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Built With
